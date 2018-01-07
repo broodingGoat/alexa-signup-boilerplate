@@ -1,0 +1,8 @@
+sign_up_intro:  |
+    Looks like we are meeting for first time. Let me sign you up, so we can start playing. What is your first name?
+error: |
+    Seems we have an issue. Would you mind starting again
+sign_up_get_id: |
+    Good to meet you {{ name }}. Give me a four digit numeric id you want to use. It could be date and month of your birthday. For example you can say lets use 0202
+sign_up_success: |
+    You are all set {{ name }}. Just remember {{ id }} as your ID when we play

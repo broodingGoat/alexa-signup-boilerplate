@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "You are all set jack. Just remember 2984 as your ID when we play",
+      "type": "PlainText"
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "You are all set jack. Just remember 2984 as your ID when we play"
+      },
+      "shouldEndSession": true
+    }
+  },
+  "sessionAttributes": {
+    "child_name": "jack",
+    "signup_step": "signup_get_id"
+  }
+}

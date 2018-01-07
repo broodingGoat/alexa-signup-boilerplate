@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Looks like we are meeting for first time. Let me sign you up, so we can start playing. What is your first name?",
+      "type": "PlainText"
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "Looks like we are meeting for first time. Let me sign you up, so we can start playing. What is your first name?"
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "signup_step": "signup_get_name"
+  }
+}

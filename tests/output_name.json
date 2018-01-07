@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "Good to meet you jack. Give me a four digit numeric id you want to use. It could be date and month of your birthday. For example you can say lets use 0202",
+      "type": "PlainText"
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "Good to meet you jack. Give me a four digit numeric id you want to use. It could be date and month of your birthday. For example you can say lets use 0202"
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "child_name": "jack",
+    "signup_step": "signup_get_id"
+  }
+}

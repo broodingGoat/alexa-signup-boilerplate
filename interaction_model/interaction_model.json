@@ -1,0 +1,54 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "Hello",
+        "samples": [
+          "Hi",
+          "I want to play",
+          "lets start"
+        ],
+        "slots": []
+      },
+      {
+        "name": "SignUpGetId",
+        "samples": [
+          "My id is {SignUpId}",
+          "Lets use {SignUpId}"
+        ],
+        "slots": [
+          {
+            "name": "SignUpId",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
+        "name": "SignUpGetName",
+        "samples": [
+          "{SignUpName}",
+          "My name is {SignUpName}"
+        ],
+        "slots": [
+          {
+            "name": "SignUpName",
+            "type": "AMAZON.US_FIRST_NAME"
+          }
+        ]
+      }
+    ],
+    "invocationName": "quiz mock"
+  }
+}
