@@ -36,8 +36,6 @@ def get_question(grade, index):
     payload = json.dumps(payload)
     headers = {'content-type': "application/json"}
     response = requests.request("POST", uri, data=payload, headers=headers)
-    print payload
-
     print response.text
     question_dic = response.json()
     return question_dic
@@ -50,6 +48,14 @@ def update_score(rollnumber,points):
     payload = json.dumps(payload)
     headers = {'content-type': "application/json"}
     response = requests.request("POST", uri_update_score, data=payload, headers=headers)
+
+    uri_get_score = backendAPI + '/getscore'
+    payload = {}
+    payload['rollnumber'] = rollnumber
+    payload = json.dumps(payload)
+    headers = {'content-type': "application/json"}
+    response = requests.request("POST", uri_get_score, data=payload, headers=headers)
+    return response.text
 
 def get_user_name(rollnumber):
     print inspect.stack()[0][3]
@@ -207,6 +213,9 @@ def my_answer():
         score = update_score(child_id,points)
         text = render_template('correct_response',score=score)
     else:
-        text = render_template('incorrect_response')
+        text = render_template('incorrect_response',answer=answer)
+    ask_session.attributes["child_id"] = child_id
+    ask_session.attributes["grade"] = grade
+    return ask_question(text)
 if __name__ == '__main__':
     app.run(debug=True)

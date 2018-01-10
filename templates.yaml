@@ -19,6 +19,6 @@ question: |
 question_help:
     Here is a hint {{ ques_help }}
 correct_response:
-    That was the right response. Your score is {{ score }}. To continue playing say Lets continue playing
+    That was the right response. {{ score }}. To continue playing say Lets continue playing
 incorrect_response:
     Sorry that was the wrong answer. Correct answer is {{ answer }} To continue playing say Lets continue playing
