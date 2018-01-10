@@ -1,5 +1,33 @@
 {
   "languageModel": {
+    "types": [
+      {
+        "name": "Grade",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "First",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Second",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Third",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
     "intents": [
       {
         "name": "AMAZON.CancelIntent",
@@ -14,6 +42,32 @@
         "samples": []
       },
       {
+        "name": "GetGrade",
+        "samples": [
+          "I am in {Grade}",
+          "My grade is {Grade}"
+        ],
+        "slots": [
+          {
+            "name": "Grade",
+            "type": "Grade"
+          }
+        ]
+      },
+      {
+        "name": "GetRollNumber",
+        "samples": [
+          "my roll number is {RollNumber}",
+          "roll number is {RollNumber}"
+        ],
+        "slots": [
+          {
+            "name": "RollNumber",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
         "name": "Hello",
         "samples": [
           "Hi",
@@ -21,6 +75,30 @@
           "lets start"
         ],
         "slots": []
+      },
+      {
+        "name": "LetsPlay",
+        "samples": [
+          "Lets play",
+          "I am ready to play",
+          "Lets start the game",
+          "Let us start the game",
+          "Lets continue playing"
+        ],
+        "slots": []
+      },
+      {
+        "name": "MyAnswer",
+        "samples": [
+          "My answer is {Answer}",
+          "{Answer} is my answer"
+        ],
+        "slots": [
+          {
+            "name": "Answer",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
       },
       {
         "name": "SignUpGetId",
