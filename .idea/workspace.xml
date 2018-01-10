@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="56ab5f2a-2524-4f81-a1e5-36110cda640c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates.yaml" afterPath="$PROJECT_DIR$/templates.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="208" column="45" lean-forward="true" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
+            <state relative-caret-position="427">
+              <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding>
                 <element signature="e#418#593#1" expanded="false" />
                 <element signature="e#631#1019#0" expanded="false" />
@@ -46,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interaction_model.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="interaction_model.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interaction_model/interaction_model.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="129" column="32" lean-forward="false" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="454">
+              <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -723,10 +722,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interaction_model/interaction_model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="208" column="45" lean-forward="true" selection-start-line="208" selection-start-column="45" selection-end-line="208" selection-end-column="45" />
+        <state relative-caret-position="427">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding>
             <element signature="e#418#593#1" expanded="false" />
             <element signature="e#631#1019#0" expanded="false" />
@@ -749,14 +756,6 @@
             <element signature="e#5474#6008#0" expanded="false" />
             <element signature="e#5932#6008#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interaction_model/interaction_model.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="129" column="32" lean-forward="false" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>

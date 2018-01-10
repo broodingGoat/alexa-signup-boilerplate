@@ -217,5 +217,6 @@ def my_answer():
     ask_session.attributes["child_id"] = child_id
     ask_session.attributes["grade"] = grade
     return ask_question(text)
+
 if __name__ == '__main__':
     app.run(debug=True)
