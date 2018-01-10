@@ -6,3 +6,19 @@ sign_up_get_id: |
     Good to meet you {{ name }}. Give me a four digit numeric id you want to use. It could be date and month of your birthday. For example you can say lets use 0202
 sign_up_success: |
     You are all set {{ name }}. Just remember {{ id }} as your ID when we play
+ask_existing_user_id: |
+    Welcome back! Whats your roll number? You can say something like my roll number is 1234
+ask_existing_user_grade: |
+    Hi {{ name }} , Ready for some fun and goodies, Tell me which grade you are in. You can say something like I am in first grade
+lets_play: |
+    Thank you. I am ready when you are. Just say Lets start the game
+not_supported_grade: |
+    Sorry we currently dont support your grade. Maybe try again in few weeks
+question: |
+    This will be for {{ points }} points. So here is the question {{ ques }} . You can say my answer is say some number
+question_help:
+    Here is a hint {{ ques_help }}
+correct_response:
+    That was the right response. Your score is {{ score }}. To continue playing say Lets continue playing
+incorrect_response:
+    Sorry that was the wrong answer. Correct answer is {{ answer }} To continue playing say Lets continue playing

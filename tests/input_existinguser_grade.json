@@ -1,0 +1,45 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.b28c6d78-67d9-4694-a475-848a794c12e6",
+    "application": {
+      "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.XXX"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.68b26351-7929-4c35-b51a-acae2e5a5a6b",
+    "intent": {
+      "name": "GetGrade",
+      "slots": {
+        "Grade": {
+          "name": "Grade",
+          "value": "2nd"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2018-01-10T07:51:19Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.XXX"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

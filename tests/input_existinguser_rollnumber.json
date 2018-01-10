@@ -1,0 +1,45 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.cbc60ca7-b94c-4edc-8a99-6b100ce6d42b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.XXXX"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.70b03a39-ff03-4e73-a179-d2e873103efa",
+    "intent": {
+      "name": "GetRollNumber",
+      "slots": {
+        "RollNumber": {
+          "name": "RollNumber",
+          "value": "123"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2018-01-10T07:30:34Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.XXX"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

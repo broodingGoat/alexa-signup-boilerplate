@@ -1,0 +1,43 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.9f1b0555-fb2e-4520-b6c3-303bf4a3be1a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+    },
+    "attributes": {
+      "child_id": "2984",
+      "grade": "gradefirst"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.XXX"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.e2fddb12-c37e-4443-ba90-909f66482e4b",
+    "intent": {
+      "name": "LetsPlay",
+      "slots": {}
+    },
+    "locale": "en-US",
+    "timestamp": "2018-01-10T08:42:47Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.71ed5137-f7fe-4653-8719-6a788bd90fd0"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.XXX"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
